@@ -1,0 +1,8 @@
+App\Entity\User:
+  user{1..10}:
+    email: "<email()>"
+    password: "aaa"
+    firstname: "<firstname()>"
+    lastname: "<lastname()>"
+    createdAt: "<DateTimeImmutable(<datetime()>)>"
+    myGroup: "@group*"
